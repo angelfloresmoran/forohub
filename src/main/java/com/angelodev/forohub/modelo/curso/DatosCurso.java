@@ -1,4 +1,13 @@
 package com.angelodev.forohub.modelo.curso;
 
-public record DatosCurso() {
+import jakarta.validation.constraints.NotBlank;
+
+public record DatosCurso(
+        @NotBlank
+        String nombre,
+
+        @NotBlank
+        CursoCategorias categoria
+) {
+
 }

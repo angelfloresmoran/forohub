@@ -14,13 +14,13 @@ public record DatosRespuesta(
         String mensaje,
 
         @NotNull
-        Long idTopico,
-
-        @NotNull
         LocalDateTime fechaCreacion,
 
         @NotNull
         Long idAutor,
+
+        @NotNull
+        Long idTopico,
 
         @NotBlank
         String solucion
