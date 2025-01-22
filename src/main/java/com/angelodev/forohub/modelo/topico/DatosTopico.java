@@ -1,8 +1,6 @@
 package com.angelodev.forohub.modelo.topico;
 
-import com.angelodev.forohub.modelo.curso.DatosCurso;
 import com.angelodev.forohub.modelo.respuesta.DatosRespuesta;
-import com.angelodev.forohub.modelo.usuario.DatosUsuario;
 import org.antlr.v4.runtime.misc.NotNull;
 import jakarta.validation.constraints.NotBlank;
 
